@@ -555,9 +555,7 @@ justify-content: space-around;
 align-items: center;
 }
 
-#section2_footerone{
-border: 1px solid white; 
-}
+
 
 #section1_footerone{
 margin-top: 2%;  
@@ -660,5 +658,59 @@ margin-left: -10px;
 margin: 2% 0%;
 
 }
+
+.section2_footerone_boxes{
+ width: 100%;
+ height: auto;
+ display: flex;
+ flex-flow: row;
+ justify-content: space-around;
+ align-content: flex-start;
+}
+
+#section2_footerone{
+ display: flex;
+ flex-flow: row wrap;   
+ margin-top: 1.5%;
+ margin-bottom: 1.5%;
+ align-items: flex-start;
+}
+
+#box-1{
+color: white;
+font-family:'Playfair Display', serif; ;
+}
+
+
+
+#quick-delivery_box, #paymentoptions_box, #pros, #safebuy{
+width: auto;
+height: auto;
+}
+
+
+#pros{
+display: flex;
+flex-flow: column;
+align-content: center;
+justify-content: center;    
+color: white;
+list-style-type: none;
+font-family: 'Raleway', sans-serif;
+}
+
+#pros li{
+ padding: 3px;   
+}
+
+
+#heading1{
+margin-left: -90px;  
+}
+
+#quick-delivery_box{
+margin-left: -70px;  
+}
+
 
 
