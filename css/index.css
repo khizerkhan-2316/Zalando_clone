@@ -209,7 +209,7 @@ body {
 }
 
 #picture-box {
-    width: 56%;
+    width: 680px;
     height: 350px;
     display: flex;
     flex-flow: column;
